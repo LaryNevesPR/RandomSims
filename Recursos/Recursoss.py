@@ -18,3 +18,4 @@ def Ler_Json(Arquivo):
         with open(Arquivo, 'r', encoding='utf-8') as f:
             Itens= json.load(f)
     return Itens
+

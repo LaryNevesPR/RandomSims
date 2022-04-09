@@ -26,7 +26,8 @@ def GerarSims():
         novo_Sim.cor_olhos = random.choice(cor_olhos)
         novo_Sim.sobrenome = random.choice(sobrenomes)
         novo_Sim.emprego = random.choice(empregos)
-        
+        fomarted_altura = "{:.2f}".format(novo_Sim.altura)
+        novo_Sim.altura =  fomarted_altura
 
     
 
@@ -54,8 +55,7 @@ def print_lista(lista):
     menorvinte = 0
     print(f'{"No.":<6}{"Nome":<16}{"Sobrenome":<16}{"Idade":<8}{"Cor Cabelo":<22}{"Cor Olhos":<20}{"Altura":<8}{"Emprego":<12}\n')
     for x in lista:
-        fomarted_altura = "{:.2f}".format(x.altura)
-        print(f'{count:<6}{x.nome:<16}{x.sobrenome:<16}{x.idade:<8}{x.cor_cabelo:<22}{x.cor_olhos:<20}{fomarted_altura + "m":<8}{x.emprego["nome"]:<10}')
+        print(f'{count:<6}{x.nome:<16}{x.sobrenome:<16}{x.idade:<8}{x.cor_cabelo:<22}{x.cor_olhos:<20}{x.altura + "m":<8}{x.emprego["nome"]:<10}')
         count+=1
         max+=1
         if x.idade >= 60:
