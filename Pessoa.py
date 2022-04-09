@@ -8,4 +8,4 @@ class Pessoa():
         self.genero = None
         self.cor_pele = None
         self.idade = 18
-
+        self.emprego = None
