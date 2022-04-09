@@ -1,0 +1,40 @@
+[
+    {
+        "nome": "Uber",
+        "salariomin": 1400,
+        "salariomax": 1700
+    },
+    {
+        "nome": "Professor",
+        "salariomin": 1450,
+        "salariomax": 2700
+    },{
+        "nome": "Recepcionista",
+        "salariomin": 1350,
+        "salariomax": 1800
+    },{
+        "nome": "Engenheiro",
+        "salariomin": 2730,
+        "salariomax": 5680
+    },{
+        "nome": "Analista",
+        "salariomin": 2500,
+        "salariomax": 6000
+    },{
+        "nome": "Gari",
+        "salariomin": 1300,
+        "salariomax": 1400
+    },{
+        "nome": "Governado",
+        "salariomin": 7000,
+        "salariomax": 7100
+    },{
+        "nome": "Jogador",
+        "salariomin": 1200,
+        "salariomax": 142405
+    },{
+        "nome": "Social Manager",
+        "salariomin": 1400,
+        "salariomax": 1800
+    }
+]
