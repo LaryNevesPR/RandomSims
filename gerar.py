@@ -73,7 +73,7 @@ def print_lista(lista):
             print("-=" * 30, "xXx", "=-" * 30)
             max = 0
     print("-=" * 30, "xXx", "=-" * 30)
-    media = totalid/100
+    media = totalid/len(Sims)
     print(f"     => Maiores que 60 anos = {maiorsecen}")
     print(f"     => Maiores que 40 anos = {maiorquarenta}")
     print(f"     => Maiores que 20 anos = {maiorvinte}")

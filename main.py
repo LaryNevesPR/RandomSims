@@ -28,8 +28,8 @@ def ProcurarSim(pesquisa):
 
 def Lersim():
     while True:
-        r = input("Qual você deseja ler?").lower()
-        if(r == "stop"):
+        r = input("Qual Sim você deseja ler?\nVocê pode pesquisar por: Nome, Idade ou gênero(masculino ou feminino)\nVoltar para sair\n").lower()
+        if(r == "voltar"):
             break
         
         ProcurarSim(r)
@@ -41,7 +41,8 @@ def Lersim():
 
 
 while True:
-    r = input("Você deseja criar ou ler?\n").lower()
+    print("-=" * 30, "xXx", "=-" * 30)
+    r = input("Você deseja:\n       =>Criar\n       =>Ler todos\n       =>Ler Sim\n       =>Stop(Finalizar)\n ").lower()
     if(r == "stop"):
         break
     if(r == "criar"):
